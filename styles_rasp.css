@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #2a2e3a;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    margin:0 auto;
+    width:375px;
+    background-color: #DEDEDE;
+
+}
+.header_day_info {
+    margin-top: 22px;
+    
+    width: 100%;
+    margin-bottom: 15px;
+    display: inline-flex;
+    height: 39px;
+    justify-content: space-evenly;
+}
+
+.header_btn {
+width: 39px;
+height: 39px;
+border: 0;
+border-radius: 8px;
+background-color: #E8E8E8;
+}
+
+.btn_pic {
+    margin: auto;
+}
+.today_info {
+    display: flex;
+    flex-direction: column;
+}
+
+p,h3 {
+    margin: 0;
+}
+
+.day_schedule {
+    margin:0 auto;
+    padding: 13px;
+    background: linear-gradient(135.42deg, #8893AA 28.59%, #BFEA88 100%);
+    border-radius: 10px;
+    position: relative;
+    width: 314px;
+}
+
+.lesson {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    color: #424656;
+    margin-bottom: 13px;
+    
+}
+.lesson_time {
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #BCCDEF;
+    width: 50px;
+    text-align: center;
+    break-inside: auto ;
+    font-size: 12px;
+
+}
+
+#lesson_name {
+    font-size: 14px;
+    font-weight:600;
+}
+
+#teacher_name {
+margin-top: 7px;
+margin-bottom: 7px;
+}
+.lesson_info {
+    
+    background-color: #DEDEDE;
+    border-radius: 0px 5px 5px 0px;
+    width: 250px;
+    padding: 5px;
+    font-size: 13px;
+    
+}
+.day_menu {
+    margin:0 auto;
+    width: 314px;
+    height: 49px;
+    background-color: #E8E8E8;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 11px;
+    
+}
+.day_menu_list {
+    color: #787878;
+    display: inline-flex;
+    text-align: center;
+    display: flex;
+    
+}
+.day_menu_list_item {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #787878;
+}
+.day_btn {
+    
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    border-radius: 50px ;
+    border: 0;
+    
+}
+.day_btn:hover {
+    background-color: #D9D9D9;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
